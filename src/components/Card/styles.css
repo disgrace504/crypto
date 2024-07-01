@@ -1,0 +1,45 @@
+.card {
+  display: flex;
+  height: 150px;
+  width: 300px;
+  padding: 15px;
+  border-radius: 16px;
+  flex-direction: column;
+  justify-content: space-between;
+  background: radial-gradient(
+      ellipse farthest-corner at right bottom,
+      #fedb37 0%,
+      #fdb931 8%,
+      #9f7928 30%,
+      #8a6e2f 40%,
+      transparent 80%
+    ),
+    radial-gradient(
+      ellipse farthest-corner at left top,
+      #ffffff 0%,
+      #ffffac 8%,
+      #d1b464 25%,
+      #5d4a1f 62.5%,
+      #5d4a1f 100%
+    );
+}
+
+.card-block {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  border: none;
+  border-radius: 4px;
+  background-color: #c0c0c0;
+  transition: ease-in-out, 2ms;
+  width: 80px;
+  color: #343434;
+  background: rgb(226, 226, 226);
+  background: radial-gradient(circle, rgba(226, 226, 226, 1) 0%, rgba(128, 128, 128, 1) 81%);
+}
+
+.btn:hover {
+  opacity: 0.7;
+}

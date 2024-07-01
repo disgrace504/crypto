@@ -1,0 +1,24 @@
+.filter-box {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  width: 100%;
+  gap: 12px;
+  justify-content: center;
+  border-radius: 12px;
+  background-color: rgb(255, 255, 255);
+}
+.label {
+  padding: 10px 15px;
+  border-radius: 12px;
+  border: none;
+  font-weight: bold;
+  background-color: rgb(255, 255, 255);
+}
+.input {
+  padding: 10px 15px;
+  border-radius: 12px;
+  background-color: rgb(255, 255, 255);
+  border: none;
+  width: 100%;
+}
